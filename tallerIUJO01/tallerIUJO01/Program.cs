@@ -23,7 +23,7 @@ namespace tallerIUJO01
             
             Console.WriteLine(string.Format("El id es: {0} del usuario {1} con la nota {2}", id, nombre, nota));
             
-            string rutaraiz = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Datos IU30");
+            string rutaraiz = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Datos IUJO");
             
             if (!Directory.Exists(rutaraiz))
             {
